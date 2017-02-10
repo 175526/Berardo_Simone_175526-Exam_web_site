@@ -1,0 +1,130 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	background-color:#A9A9A9;
+}
+
+.container{
+	background-color: #00BFFF;
+	font-family: font-family: Arial, Verdana , Helvetica, sans-serif;
+	margin:auto;
+	padding:0;
+	width:95%;
+}
+
+.title{
+	font-family: 'Kumar One', cursive;
+	float:left;
+	margin-left: 10%;
+	font-size:140%;
+}
+.nick{
+	background: url(./images/redbg.gif) repeat-x;
+	border: 2px solid grey;
+	margin: 20px;
+	padding: 11px;
+	float: right;
+	font-size: 110%;
+}
+
+.navigation{
+	height:48px;
+	background-color: blue;
+	border: 2px solid;
+	display:block;
+	clear: both;
+}
+ul#menu {
+	font-family: Verdana, Arial, sans-serif;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	list-style-type:none;
+	text-align:center;
+}
+ul#menu li { 
+	padding: 0 15px 0 15px;
+	text-align:left;
+	margin:-2px;
+	display:inline;
+}
+ul#menu li a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	text-shadow: blue 0 2px 0;
+	padding-left:15px;
+	line-height:40px;
+	
+}
+
+#testo_body{ 	
+	padding: 80px 40px 30px 10px; 
+	text-align: center;
+	font-size:130%;
+}
+
+#testo_body_dinamic{ 	
+	padding: 10px 40px 30px 10px; 
+	text-align: center;
+	font-size:130%;
+}
+
+.content{
+	height:400px;
+}
+
+#immagineHome
+{ 
+	float: left; 
+	background: url(./images/atom.png) no-repeat;
+	background-size: 300px 200px;
+	padding: 30px 0 0 300px; 
+	height:300px;
+	margin-right:50px;
+	position: relative;
+    left: 3%;
+    top: 20%;  
+}
+
+.footer_fixed{
+	background-color:blue;
+	font-family: Arial, Verdana , Helvetica, sans-serif;
+	font-weight:bold;
+	border-top: 1px solid black; 
+	font-size: 80%;
+	text-align: center;
+}
+
+.button_sub{
+	margin:5px;
+	padding:10px;
+	background-color: green;
+}
+.button_reset{
+	margin:5px;
+	background-color: red;
+	padding:10px;
+}
+
+table{
+	margin:auto;
+	
+	width: 90%;
+}
+
+input{
+	
+	background-color:#ADD8E6;
+	margin:2px;
+}
+
+thead{
+	font-size:120%;
+	text-decoration: underline;
+}
+
+th{
+	border: 2px solid black;
+	height:20px;
+}
